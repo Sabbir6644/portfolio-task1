@@ -1,43 +1,4 @@
-/* header{
-    background-image: url(banner1.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0 auto;
-    max-width: 1900px;
-}
 
-
-
-.header {
-    margin-left:1100px ;
-    max-width: 450px;
-    padding-top: 150px;
-   text-align: right;
-   display: flex;
-
-
-}
-.title{
-    font-size: 55px;
-    font-family: 'Times New Roman', Times, serif;
-    
-}
-button{
-    padding: 15px;
-    background-color: orange;
-    color: white;
-    font-size: 20px;
-    border-radius: 5px;
-    border: none;
-}
-.title-description{
-   
-    font-size: 16px;
-    text-align: right;
-
-    
-    
-} */
 .header-section{
     margin-bottom: 100px;
 }
@@ -88,13 +49,19 @@ button{
 
 }
 .img-section{
+   background-color: bisque;
+   border-radius: 50%;
+   height: 370px;
+   width: 370px;
    
 }
 .title-description-section{
     width: 520px;
 }
 .profile-pic{
+    margin-top: -139px;
     height: 510px;
+    margin-left: -17px;
 }
 .second-section{
     text-align: center;
@@ -135,4 +102,29 @@ button{
     font-size: 20px;
     border-radius: 5px;
     border: none;
+}
+footer{
+    
+}
+.footer-conteiner{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+
+    background-color: black;
+    margin-top: 50px;
+    padding: 60px 0px;
+}
+.footer-left{
+    width: 400px;
+}
+.footer-title{
+    font-size: 35px;
+}
+.input-email{
+    background-color: black;
+    color: white;
+    border-color: white;
+    border-radius: 5px;
+    padding: 10px ;
 }
